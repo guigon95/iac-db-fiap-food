@@ -1,0 +1,9 @@
+.gitignore
+*.auto.tfvars
+
+.terraform
+
+.terraformrc
+
+*.tfstate
+.idea
