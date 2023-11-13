@@ -6,17 +6,20 @@ variable "aws_region" {
     default = "us-east-2"
 }
 
-#variable "account_id" {
-#    type    = string
-#}
-#
-#variable "access_key" {
-#    type    = string
-#}
-#
-#variable "secret_key" {
-#    type    = string
-#}
+variable "account_id" {
+    type    = string
+    default = "sdx86s5DSDd42as4"
+}
+
+variable "access_key" {
+    type    = string
+    default = "sdx86s5DSDd42as4"
+}
+
+variable "secret_key" {
+    type    = string
+    default = "sdx86s5DSDd42as4"
+}
 
 variable "db_name" {
     description = "The name of the database to create when the DB instance is created"
@@ -36,3 +39,7 @@ variable "db_password" {
     default = "foobarbaz"
 }
 
+variable "clients_rds_ids" {
+    type    = list(string)
+    default = ["sdx86s5DSDd42as4"]
+}
